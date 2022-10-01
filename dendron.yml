@@ -22,14 +22,12 @@ commands:
     templateHierarchy: template
 workspace:
     vaults:
-        -
-            fsPath: dependencies/localhost/workplace
-            selfContained: true
-            name: workplace
-        -
-            fsPath: .
-            selfContained: true
-            name: mycelium
+        - fsPath: dependencies/localhost/workplace
+          selfContained: true
+          name: workplace
+        - fsPath: .
+          selfContained: true
+          name: mycelium
     journal:
         dailyDomain: daily
         name: journal
@@ -44,7 +42,7 @@ workspace:
         dateFormat: y.MM.dd
         addBehavior: asOwnDomain
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -52,7 +50,7 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
         taskCompleteStatus:
             - done
             - x
@@ -94,9 +92,11 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    assetsPrefix: /mycelium
+    siteUrl: https://dingyuchen.github.io
     seo:
-        title: Dendron
-        description: Personal Knowledge Space
+        title: Mycelium
+        description: Ding's Digital Garden
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
