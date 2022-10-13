@@ -22,17 +22,15 @@ commands:
     templateHierarchy: template
 workspace:
     vaults:
-        -
-            fsPath: dependencies/localhost/workplace
-            selfContained: true
-            name: workplace
-        -
-            fsPath: .
-            selfContained: true
-            name: mycelium
-            remote:
-                type: git
-                url: git@github.com:dingyuchen/mycelium.git
+        - fsPath: dependencies/localhost/workplace
+          selfContained: true
+          name: workplace
+        - fsPath: .
+          selfContained: true
+          name: mycelium
+          remote:
+              type: git
+              url: git@github.com:dingyuchen/mycelium.git
     journal:
         dailyDomain: daily
         name: journal
@@ -47,7 +45,7 @@ workspace:
         dateFormat: y.MM.dd
         addBehavior: asOwnDomain
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -55,7 +53,7 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
         taskCompleteStatus:
             - done
             - x
@@ -94,11 +92,13 @@ publishing:
     enableKatex: true
     copyAssets: true
     siteHierarchies:
-        - root
+        - self
+        - programs
+        - tooling
     writeStubs: false
     siteRootDir: docs
     assetsPrefix: /mycelium
-    siteUrl: https://dingyuchen.github.io
+    siteUrl: https://dingyuchen.github.io/
     seo:
         title: Mycelium
         description: Ding's Digital Garden
@@ -118,3 +118,4 @@ publishing:
         payload:
             - workplace
             - mycelium
+    searchMode: lookup

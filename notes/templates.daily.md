@@ -2,7 +2,7 @@
 id: i1c1gapxwt0uc23daquacfg
 title: Daily Journal Template
 desc: ''
-updated: 1664596325680
+updated: 1665665884527
 created: 1664002024963
 ---
 To create your own schemas to auto-apply templates when they match a hierarchy, follow the [schema tutorial](https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/) to get started.
@@ -44,7 +44,6 @@ Based on the journaling method created by Intelligent Change:
 ### Supplement
 
 - [ ] Magnesium
-- [ ] Finasteride
 
 ### Reflections
 
