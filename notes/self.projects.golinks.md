@@ -2,7 +2,7 @@
 id: dodgf8dws72bbit42h1r3x6
 title: Golinks
 desc: ''
-updated: 1665666425553
+updated: 1665755828861
 created: 1665666018172
 ---
 
@@ -24,3 +24,7 @@ In my bootleg implementation, we only propose the following features:
 2. A frontend for users to create a new alias to a website
 3. A server that serves the frontend for empty or invalid aliases
 4. The same server to reply with redirections upon a matching alias
+
+### Search
+
+Search return a list of matches with levenshtein distance and limit as parameters
