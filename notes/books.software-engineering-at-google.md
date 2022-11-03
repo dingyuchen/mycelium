@@ -2,7 +2,7 @@
 id: 19jdn3rwahi9gg50brrm8jl
 title: Software Engineering at Google
 desc: ''
-updated: 1665757257223
+updated: 1666190195992
 created: 1665757257224
 ---
 
@@ -13,3 +13,7 @@ created: 1665757257224
 # Chapter 2: How to Work Well on Teams
 
 # Chapter 3: Knowledge Sharing
+
+# Chapter 4: Engineering for Equity
+
+# Chapter 5: How to Lead a Team
