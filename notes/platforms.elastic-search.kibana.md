@@ -2,7 +2,7 @@
 id: qffz5o5bj5gygqmpo4kz9vo
 title: Kibana
 desc: ''
-updated: 1670334969616
+updated: 1670335019623
 created: 1669163020252
 ---
 
@@ -84,6 +84,5 @@ filter {
 ```
 
 grok patterns are like regex but with labeling
-
 
 
