@@ -1,0 +1,16 @@
+<h1 id="golinks">Golinks<a aria-hidden="true" class="anchor-heading icon-link" href="#golinks"></a></h1>
+<p>Golinks is a pretty simple concept:</p>
+<p>you open your browser and type something like <code>go/nus</code> to go to your school's website for example.</p>
+<p>In the backend, a DNS record should redirect your request to a server that stores the database of short links to actual links.</p>
+<p>All that server needs to do is to simply return a <code>503</code> code with the full address of the school website, and voila.</p>
+<h2 id="implementation">Implementation<a aria-hidden="true" class="anchor-heading icon-link" href="#implementation"></a></h2>
+<p>Before we go into the implementation, we shall define the short-form url as "<strong>alias</strong>" and the full URL address as "<strong>url</strong>".</p>
+<p>In my bootleg implementation, we only propose the following features:</p>
+<ol>
+<li>A frontend for users to query existing aliases</li>
+<li>A frontend for users to create a new alias to a website</li>
+<li>A server that serves the frontend for empty or invalid aliases</li>
+<li>The same server to reply with redirections upon a matching alias</li>
+</ol>
+<h3 id="search">Search<a aria-hidden="true" class="anchor-heading icon-link" href="#search"></a></h3>
+<p>Search return a list of matches with levenshtein distance and limit as parameters</p>

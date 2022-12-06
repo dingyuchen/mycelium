@@ -1,0 +1,22 @@
+<h1 id="tasks">Tasks<a aria-hidden="true" class="anchor-heading icon-link" href="#tasks"></a></h1>
+<p>Dendron tasks are their own notes.</p>
+<p>I have tried using markdown checkboxes, but it does not integrate well with Markdown-all-in-one, in that <code>Alt-X</code> does not check the checkbox.</p>
+<h2 id="changing-completion-status">Changing completion status<a aria-hidden="true" class="anchor-heading icon-link" href="#changing-completion-status"></a></h2>
+<p>I set my personal chord of <code>Meta + Shift + T &#x3C;status></code></p>
+<pre class="language-json"><code class="language-json">    <span class="token punctuation">{</span>
+        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"meta+shift+t x"</span><span class="token punctuation">,</span> <span class="token comment">// or any other shortcut you want to use</span>
+        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"dendron.setTaskStatus"</span><span class="token punctuation">,</span>
+        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorFocus &#x26;&#x26; dendron:pluginActive"</span><span class="token punctuation">,</span>
+        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"setStatus"</span><span class="token operator">:</span> <span class="token string">"x"</span> <span class="token comment">// the status you want to set</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"meta+shift+t space"</span><span class="token punctuation">,</span> <span class="token comment">// or any other shortcut you want to use</span>
+        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"dendron.setTaskStatus"</span><span class="token punctuation">,</span>
+        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorFocus &#x26;&#x26; dendron:pluginActive"</span><span class="token punctuation">,</span>
+        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"setStatus"</span><span class="token operator">:</span> <span class="token string">" "</span> <span class="token comment">// the status you want to set</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre>

@@ -1,0 +1,343 @@
+{
+  "roots": [
+    {
+      "key": "jeno2gw2ru0lk2hjk1t6kfu",
+      "title": "Self",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "mycelium",
+      "children": [
+        {
+          "key": "70y9r1m7w3dczky3qheeu6x",
+          "title": "Dendron",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "16i5ylahzk5snidmq0mp7ax",
+              "title": "Tasks",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "7v6qrwbbehg9qifk52eo107",
+          "title": "Projects",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "2sjxhzailrvhbny9koga1e4",
+              "title": "Blog",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "dodgf8dws72bbit42h1r3x6",
+              "title": "Golinks",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "xkkgyl7yhyajiwqmv0i3yb2",
+              "title": "Hullett",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "4fcp81shvtvttxmrn85cxiv",
+              "title": "Notes",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "3lift7dy1lrgpulsk0cf8rz",
+              "title": "Self Hosting",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "z2mx05a21tjcul6e2zpymg8",
+          "title": "Stack",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "ote8s9v89rcc1qluztnqql9",
+              "title": "Personal",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "ezaq1livsnvw7qp4t71ln1e",
+              "title": "Task",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": [
+                {
+                  "key": "5zn30lelr65fy9i6qwrbgmq",
+                  "title": "2022",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "mycelium",
+                  "children": [
+                    {
+                      "key": "06yvgv7u9aw26gq14jmsp3c",
+                      "title": "10",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "mycelium",
+                      "children": [
+                        {
+                          "key": "kgc1lllouxn4vwyhxqcqai7",
+                          "title": "15",
+                          "icon": "plusOutlined",
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "mycelium",
+                          "children": [
+                            {
+                              "key": "uioclf0ebpb3ojeo2u5bl2d",
+                              "title": "Check Out lowlighter/metrics",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "mycelium",
+                              "children": []
+                            },
+                            {
+                              "key": "xe4hjpefuvxrrhfh8czwkw6",
+                              "title": "Make Useful Small Programs Crossword Puzzle",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "mycelium",
+                              "children": []
+                            },
+                            {
+                              "key": "0fjpi9uu44co2eelue3hjcn",
+                              "title": "Write Notes Manifesto",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "mycelium",
+                              "children": []
+                            },
+                            {
+                              "key": "r5818q7c23mijfxsgqrtzp6",
+                              "title": "Write Summary for Software Engineering at Google",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "mycelium",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cc99duyya7duznab1snvopx",
+      "title": "Programs",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "mycelium",
+      "children": [
+        {
+          "key": "vuvzarcxbulrzrncswcuu86",
+          "title": "macOS",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "2u5xwxj9gx6z2q80akx58eg",
+              "title": "UTM",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "mjr9wye0hfp3a4c0o7cmdbb",
+          "title": "Xplatform",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "722623n06szfy0wea3wg4gj",
+              "title": "Kernel-based Virtual Machine",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "ck283x0a7i0ea5wx9608929",
+              "title": "Qemu",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2urytnhyjzxkxsjogj71k8v",
+      "title": "Tooling",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "mycelium",
+      "children": [
+        {
+          "key": "smasnp7xn4wspgqjvfd5ihb",
+          "title": "Nix",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "mycelium",
+          "children": [
+            {
+              "key": "6kkz0xmm5hm3yr3oqhyy4k6",
+              "title": "Nix Darwin",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": [
+                {
+                  "key": "aeyep204nrqd1svsek50ilw",
+                  "title": "Fish",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "mycelium",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "essg439ny5tpgffpbwtmd1x",
+              "title": "How to Learn Nix",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": []
+            },
+            {
+              "key": "e4y7p5sy0xgrk2qamsyo590",
+              "title": "Official Guide",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "mycelium",
+              "children": [
+                {
+                  "key": "oi93ysz56n3pr5wz339cx06",
+                  "title": "Notes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "mycelium",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "jeno2gw2ru0lk2hjk1t6kfu": null,
+    "70y9r1m7w3dczky3qheeu6x": "jeno2gw2ru0lk2hjk1t6kfu",
+    "16i5ylahzk5snidmq0mp7ax": "70y9r1m7w3dczky3qheeu6x",
+    "7v6qrwbbehg9qifk52eo107": "jeno2gw2ru0lk2hjk1t6kfu",
+    "2sjxhzailrvhbny9koga1e4": "7v6qrwbbehg9qifk52eo107",
+    "dodgf8dws72bbit42h1r3x6": "7v6qrwbbehg9qifk52eo107",
+    "xkkgyl7yhyajiwqmv0i3yb2": "7v6qrwbbehg9qifk52eo107",
+    "4fcp81shvtvttxmrn85cxiv": "7v6qrwbbehg9qifk52eo107",
+    "3lift7dy1lrgpulsk0cf8rz": "7v6qrwbbehg9qifk52eo107",
+    "z2mx05a21tjcul6e2zpymg8": "jeno2gw2ru0lk2hjk1t6kfu",
+    "ote8s9v89rcc1qluztnqql9": "z2mx05a21tjcul6e2zpymg8",
+    "ezaq1livsnvw7qp4t71ln1e": "z2mx05a21tjcul6e2zpymg8",
+    "5zn30lelr65fy9i6qwrbgmq": "ezaq1livsnvw7qp4t71ln1e",
+    "06yvgv7u9aw26gq14jmsp3c": "5zn30lelr65fy9i6qwrbgmq",
+    "kgc1lllouxn4vwyhxqcqai7": "06yvgv7u9aw26gq14jmsp3c",
+    "uioclf0ebpb3ojeo2u5bl2d": "kgc1lllouxn4vwyhxqcqai7",
+    "xe4hjpefuvxrrhfh8czwkw6": "kgc1lllouxn4vwyhxqcqai7",
+    "0fjpi9uu44co2eelue3hjcn": "kgc1lllouxn4vwyhxqcqai7",
+    "r5818q7c23mijfxsgqrtzp6": "kgc1lllouxn4vwyhxqcqai7",
+    "cc99duyya7duznab1snvopx": null,
+    "vuvzarcxbulrzrncswcuu86": "cc99duyya7duznab1snvopx",
+    "2u5xwxj9gx6z2q80akx58eg": "vuvzarcxbulrzrncswcuu86",
+    "mjr9wye0hfp3a4c0o7cmdbb": "cc99duyya7duznab1snvopx",
+    "722623n06szfy0wea3wg4gj": "mjr9wye0hfp3a4c0o7cmdbb",
+    "ck283x0a7i0ea5wx9608929": "mjr9wye0hfp3a4c0o7cmdbb",
+    "2urytnhyjzxkxsjogj71k8v": null,
+    "smasnp7xn4wspgqjvfd5ihb": "2urytnhyjzxkxsjogj71k8v",
+    "6kkz0xmm5hm3yr3oqhyy4k6": "smasnp7xn4wspgqjvfd5ihb",
+    "aeyep204nrqd1svsek50ilw": "6kkz0xmm5hm3yr3oqhyy4k6",
+    "essg439ny5tpgffpbwtmd1x": "smasnp7xn4wspgqjvfd5ihb",
+    "e4y7p5sy0xgrk2qamsyo590": "smasnp7xn4wspgqjvfd5ihb",
+    "oi93ysz56n3pr5wz339cx06": "e4y7p5sy0xgrk2qamsyo590"
+  },
+  "notesLabelById": {
+    "jeno2gw2ru0lk2hjk1t6kfu": "Self",
+    "70y9r1m7w3dczky3qheeu6x": "Dendron",
+    "16i5ylahzk5snidmq0mp7ax": "Tasks",
+    "7v6qrwbbehg9qifk52eo107": "Projects",
+    "2sjxhzailrvhbny9koga1e4": "Blog",
+    "dodgf8dws72bbit42h1r3x6": "Golinks",
+    "xkkgyl7yhyajiwqmv0i3yb2": "Hullett",
+    "4fcp81shvtvttxmrn85cxiv": "Notes",
+    "3lift7dy1lrgpulsk0cf8rz": "Self Hosting",
+    "z2mx05a21tjcul6e2zpymg8": "Stack",
+    "ote8s9v89rcc1qluztnqql9": "Personal",
+    "ezaq1livsnvw7qp4t71ln1e": "Task",
+    "5zn30lelr65fy9i6qwrbgmq": "2022",
+    "06yvgv7u9aw26gq14jmsp3c": "10",
+    "kgc1lllouxn4vwyhxqcqai7": "15",
+    "uioclf0ebpb3ojeo2u5bl2d": "Check Out lowlighter/metrics",
+    "xe4hjpefuvxrrhfh8czwkw6": "Make Useful Small Programs Crossword Puzzle",
+    "0fjpi9uu44co2eelue3hjcn": "Write Notes Manifesto",
+    "r5818q7c23mijfxsgqrtzp6": "Write Summary for Software Engineering at Google",
+    "cc99duyya7duznab1snvopx": "Programs",
+    "vuvzarcxbulrzrncswcuu86": "macOS",
+    "2u5xwxj9gx6z2q80akx58eg": "UTM",
+    "mjr9wye0hfp3a4c0o7cmdbb": "Xplatform",
+    "722623n06szfy0wea3wg4gj": "Kernel-based Virtual Machine",
+    "ck283x0a7i0ea5wx9608929": "Qemu",
+    "2urytnhyjzxkxsjogj71k8v": "Tooling",
+    "smasnp7xn4wspgqjvfd5ihb": "Nix",
+    "6kkz0xmm5hm3yr3oqhyy4k6": "Nix Darwin",
+    "aeyep204nrqd1svsek50ilw": "Fish",
+    "essg439ny5tpgffpbwtmd1x": "How to Learn Nix",
+    "e4y7p5sy0xgrk2qamsyo590": "Official Guide",
+    "oi93ysz56n3pr5wz339cx06": "Notes"
+  }
+}

@@ -1,0 +1,25 @@
+<h1 id="nix-darwin">Nix Darwin<a aria-hidden="true" class="anchor-heading icon-link" href="#nix-darwin"></a></h1>
+<h2 id="why">Why<a aria-hidden="true" class="anchor-heading icon-link" href="#why"></a></h2>
+<p>Nix darwin brings the configuration.nix part of NixOS to macOS.
+I think its a good starting point to find out more about the nix ecosystem and framework.</p>
+<p>The main usecase for vanilla nix would be to create hermetic development environments, but that is not immediately necessary in the case of the work laptop, since most of the versioning and environment management is already handled by <code>spkit</code> and <code>make</code>.</p>
+<p>Furthermore, it makes more sense to use <code>nix-darwin</code> to replace the base environment before setting up repo-specific <code>nix-shell</code>s to maintain the developer experience.</p>
+<h2 id="setting-up">Setting Up<a aria-hidden="true" class="anchor-heading icon-link" href="#setting-up"></a></h2>
+<pre><code>darwin-rebuild switch -I darwin-config=dotfiles/darwin-configuration.nix
+</code></pre>
+<p>This sources the custom configuration. <code>ds</code> can be used as per normal after.</p>
+<h2 id="appendix">Appendix<a aria-hidden="true" class="anchor-heading icon-link" href="#appendix"></a></h2>
+<h3 id="gui-apps">GUI Apps<a aria-hidden="true" class="anchor-heading icon-link" href="#gui-apps"></a></h3>
+<blockquote>
+<p>Currently only system-level GUI apps are only linked into <code>~/Applications</code></p>
+<p>Refer to <a href="https://github.com/LnL7/nix-darwin/issues/276">https://github.com/LnL7/nix-darwin/issues/276</a></p>
+</blockquote>
+<h3 id="fhs">FHS<a aria-hidden="true" class="anchor-heading icon-link" href="#fhs"></a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">FHS</a> versions of <code>vscode</code> and <code>vscodium</code> are not supported on macOS.
+There is also no need to use the FHS versions, since GUI apps are better managed as <code>brew casks</code> at this point in time anyway.</p>
+<h2 id="patchelf">PatchELF<a aria-hidden="true" class="anchor-heading icon-link" href="#patchelf"></a></h2>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/mycelium/notes/aeyep204nrqd1svsek50ilw">Fish</a></li>
+</ol>

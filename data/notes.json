@@ -1,0 +1,1692 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "dependencies/localhost/workplace",
+        "selfContained": true,
+        "name": "workplace"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335117265,
+      "created": 1670335117265,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "2urytnhyjzxkxsjogj71k8v": {
+      "fname": "tooling",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116869,
+      "created": 1670335116869,
+      "id": "2urytnhyjzxkxsjogj71k8v",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "smasnp7xn4wspgqjvfd5ihb"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Tooling",
+      "custom": {
+        "nav_order": 2
+      }
+    },
+    "smasnp7xn4wspgqjvfd5ihb": {
+      "id": "smasnp7xn4wspgqjvfd5ihb",
+      "title": "Nix",
+      "desc": "",
+      "updated": 1664608831872,
+      "created": 1664608815044,
+      "custom": {},
+      "fname": "tooling.nix",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "fc186e3cc2988b6818f70fddb7de9869",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "6kkz0xmm5hm3yr3oqhyy4k6",
+        "essg439ny5tpgffpbwtmd1x",
+        "e4y7p5sy0xgrk2qamsyo590"
+      ],
+      "parent": "2urytnhyjzxkxsjogj71k8v",
+      "data": {}
+    },
+    "e4y7p5sy0xgrk2qamsyo590": {
+      "fname": "tooling.nix.official-guide",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116877,
+      "created": 1670335116877,
+      "id": "e4y7p5sy0xgrk2qamsyo590",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "oi93ysz56n3pr5wz339cx06"
+      ],
+      "parent": "smasnp7xn4wspgqjvfd5ihb",
+      "data": {},
+      "title": "Official Guide"
+    },
+    "oi93ysz56n3pr5wz339cx06": {
+      "id": "oi93ysz56n3pr5wz339cx06",
+      "title": "Notes",
+      "desc": "",
+      "updated": 1664609446993,
+      "created": 1664609446993,
+      "custom": {},
+      "fname": "tooling.nix.official-guide.notes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "d5d2cd02abaf9ec92f855a4152fc8dca",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "e4y7p5sy0xgrk2qamsyo590",
+      "data": {}
+    },
+    "essg439ny5tpgffpbwtmd1x": {
+      "id": "essg439ny5tpgffpbwtmd1x",
+      "title": "How to Learn Nix",
+      "desc": "",
+      "updated": 1664610360271,
+      "created": 1664609208398,
+      "custom": {},
+      "fname": "tooling.nix.how-to-learn-nix",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "af8690a26f3c695737e1b8ea3ef7ffe8",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "smasnp7xn4wspgqjvfd5ihb",
+      "data": {}
+    },
+    "6kkz0xmm5hm3yr3oqhyy4k6": {
+      "id": "6kkz0xmm5hm3yr3oqhyy4k6",
+      "title": "Nix Darwin",
+      "desc": "",
+      "updated": 1667459159994,
+      "created": 1666425579784,
+      "custom": {},
+      "fname": "tooling.nix.darwin",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "3e652da31192f00513339a446f109d13",
+      "links": [],
+      "anchors": {
+        "why": {
+          "type": "header",
+          "text": "Why",
+          "value": "why",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "setting-up": {
+          "type": "header",
+          "text": "Setting Up",
+          "value": "setting-up",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "appendix": {
+          "type": "header",
+          "text": "Appendix",
+          "value": "appendix",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "gui-apps": {
+          "type": "header",
+          "text": "GUI Apps",
+          "value": "gui-apps",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "fhs": {
+          "type": "header",
+          "text": "FHS",
+          "value": "fhs",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "patchelf": {
+          "type": "header",
+          "text": "PatchELF",
+          "value": "patchelf",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "aeyep204nrqd1svsek50ilw"
+      ],
+      "parent": "smasnp7xn4wspgqjvfd5ihb",
+      "data": {}
+    },
+    "aeyep204nrqd1svsek50ilw": {
+      "id": "aeyep204nrqd1svsek50ilw",
+      "title": "Fish",
+      "desc": "",
+      "updated": 1667461613883,
+      "created": 1667460877998,
+      "custom": {},
+      "fname": "tooling.nix.darwin.fish",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "f8cbf9d5f0bf77ec611357d6b2ad834b",
+      "links": [],
+      "anchors": {
+        "default-shell": {
+          "type": "header",
+          "text": "Default shell",
+          "value": "default-shell",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "aliases": {
+          "type": "header",
+          "text": "Aliases",
+          "value": "aliases",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "6kkz0xmm5hm3yr3oqhyy4k6",
+      "data": {}
+    },
+    "cc99duyya7duznab1snvopx": {
+      "fname": "programs",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116870,
+      "created": 1670335116870,
+      "id": "cc99duyya7duznab1snvopx",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "vuvzarcxbulrzrncswcuu86",
+        "mjr9wye0hfp3a4c0o7cmdbb"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Programs",
+      "custom": {
+        "nav_order": 1
+      }
+    },
+    "mjr9wye0hfp3a4c0o7cmdbb": {
+      "fname": "programs.xplatform",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116871,
+      "created": 1670335116871,
+      "id": "mjr9wye0hfp3a4c0o7cmdbb",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "722623n06szfy0wea3wg4gj",
+        "ck283x0a7i0ea5wx9608929"
+      ],
+      "parent": "cc99duyya7duznab1snvopx",
+      "data": {},
+      "title": "Xplatform"
+    },
+    "ck283x0a7i0ea5wx9608929": {
+      "id": "ck283x0a7i0ea5wx9608929",
+      "title": "Qemu",
+      "desc": "",
+      "updated": 1665839560119,
+      "created": 1665299118865,
+      "custom": {},
+      "fname": "programs.xplatform.qemu",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "92184afbd2eb8659d5f970ae703adc50",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "programs.xplatform.qemu",
+            "id": "ck283x0a7i0ea5wx9608929",
+            "vaultName": "mycelium"
+          },
+          "value": "programs.xplatform.kvm",
+          "alias": "kvm",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 17,
+              "offset": 108
+            },
+            "end": {
+              "line": 5,
+              "column": 47,
+              "offset": 138
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "programs.xplatform.kvm"
+          }
+        },
+        {
+          "from": {
+            "fname": "programs.macos.utm",
+            "id": "2u5xwxj9gx6z2q80akx58eg",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 40,
+              "offset": 84
+            },
+            "end": {
+              "line": 3,
+              "column": 72,
+              "offset": 116
+            },
+            "indent": []
+          },
+          "value": "programs.xplatform.qemu"
+        }
+      ],
+      "anchors": {
+        "difference-between-virtualization-and-emulation": {
+          "type": "header",
+          "text": "Difference between Virtualization and Emulation",
+          "value": "difference-between-virtualization-and-emulation",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "mjr9wye0hfp3a4c0o7cmdbb",
+      "data": {}
+    },
+    "722623n06szfy0wea3wg4gj": {
+      "id": "722623n06szfy0wea3wg4gj",
+      "title": "Kernel-based Virtual Machine",
+      "desc": "",
+      "updated": 1665327521646,
+      "created": 1665327414445,
+      "custom": {},
+      "fname": "programs.xplatform.kvm",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "20ef15861f5301f0aac5d3539a4f4277",
+      "links": [
+        {
+          "from": {
+            "fname": "programs.xplatform.qemu",
+            "id": "ck283x0a7i0ea5wx9608929",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 17,
+              "offset": 108
+            },
+            "end": {
+              "line": 5,
+              "column": 47,
+              "offset": 138
+            },
+            "indent": []
+          },
+          "value": "programs.xplatform.kvm"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "mjr9wye0hfp3a4c0o7cmdbb",
+      "data": {}
+    },
+    "vuvzarcxbulrzrncswcuu86": {
+      "fname": "programs.macos",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116870,
+      "created": 1670335116870,
+      "id": "vuvzarcxbulrzrncswcuu86",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "2u5xwxj9gx6z2q80akx58eg"
+      ],
+      "parent": "cc99duyya7duznab1snvopx",
+      "data": {},
+      "title": "macOS"
+    },
+    "2u5xwxj9gx6z2q80akx58eg": {
+      "id": "2u5xwxj9gx6z2q80akx58eg",
+      "title": "UTM",
+      "desc": "",
+      "updated": 1665299491705,
+      "created": 1665299026669,
+      "custom": {},
+      "fname": "programs.macos.utm",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "65d901ba579b0cb42cc4a5219b1f5fef",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "programs.macos.utm",
+            "id": "2u5xwxj9gx6z2q80akx58eg",
+            "vaultName": "mycelium"
+          },
+          "value": "programs.xplatform.qemu",
+          "alias": "qemu",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 40,
+              "offset": 84
+            },
+            "end": {
+              "line": 3,
+              "column": 72,
+              "offset": 116
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "programs.xplatform.qemu"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "vuvzarcxbulrzrncswcuu86",
+      "data": {}
+    },
+    "jeno2gw2ru0lk2hjk1t6kfu": {
+      "fname": "self",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116867,
+      "created": 1670335116867,
+      "id": "jeno2gw2ru0lk2hjk1t6kfu",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "70y9r1m7w3dczky3qheeu6x",
+        "z2mx05a21tjcul6e2zpymg8",
+        "7v6qrwbbehg9qifk52eo107"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Self",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    },
+    "7v6qrwbbehg9qifk52eo107": {
+      "fname": "self.projects",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116872,
+      "created": 1670335116872,
+      "id": "7v6qrwbbehg9qifk52eo107",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "2sjxhzailrvhbny9koga1e4",
+        "dodgf8dws72bbit42h1r3x6",
+        "xkkgyl7yhyajiwqmv0i3yb2",
+        "4fcp81shvtvttxmrn85cxiv",
+        "3lift7dy1lrgpulsk0cf8rz"
+      ],
+      "parent": "jeno2gw2ru0lk2hjk1t6kfu",
+      "data": {},
+      "title": "Projects"
+    },
+    "3lift7dy1lrgpulsk0cf8rz": {
+      "id": "3lift7dy1lrgpulsk0cf8rz",
+      "title": "Self Hosting",
+      "desc": "",
+      "updated": 1665846514455,
+      "created": 1665845628721,
+      "custom": {},
+      "fname": "self.projects.self-hosting",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "398528a4b39b415a6b9f0ab162a6c477",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "self.projects.self-hosting",
+            "id": "3lift7dy1lrgpulsk0cf8rz",
+            "vaultName": "mycelium"
+          },
+          "value": "platforms.vps",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 13,
+              "offset": 163
+            },
+            "end": {
+              "line": 9,
+              "column": 48,
+              "offset": 198
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "platforms.vps",
+            "anchorHeader": "^opt-start:#^end"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "7v6qrwbbehg9qifk52eo107",
+      "data": {}
+    },
+    "4fcp81shvtvttxmrn85cxiv": {
+      "id": "4fcp81shvtvttxmrn85cxiv",
+      "title": "Notes",
+      "desc": "",
+      "updated": 1664600307602,
+      "created": 1664600260268,
+      "custom": {},
+      "fname": "self.projects.notes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "3663383e0693e83021c6b2040266ac6e",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.projects.notes",
+            "id": "4fcp81shvtvttxmrn85cxiv",
+            "vaultName": "mycelium"
+          },
+          "value": "tags.blog",
+          "alias": "#blog",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 6,
+              "offset": 6
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.blog"
+          }
+        }
+      ],
+      "anchors": {
+        "why-note-taking-is-important-to-me": {
+          "type": "header",
+          "text": "Why note-taking is important to me",
+          "value": "why-note-taking-is-important-to-me",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "a-comparison-of-free-unstructured-note-taking-tools-out-there": {
+          "type": "header",
+          "text": "A comparison of free, unstructured note-taking tools out there",
+          "value": "a-comparison-of-free-unstructured-note-taking-tools-out-there",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "7v6qrwbbehg9qifk52eo107",
+      "data": {}
+    },
+    "xkkgyl7yhyajiwqmv0i3yb2": {
+      "id": "xkkgyl7yhyajiwqmv0i3yb2",
+      "title": "Hullett",
+      "desc": "",
+      "updated": 1668579429452,
+      "created": 1668141967178,
+      "custom": {},
+      "fname": "self.projects.hullett",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "f0a0d3fe3abe4c9a89317146e43731a3",
+      "links": [],
+      "anchors": {
+        "hullett-an-edtech-experiment": {
+          "type": "header",
+          "text": "Hullett, an EdTech Experiment",
+          "value": "hullett-an-edtech-experiment",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "focus": {
+          "type": "header",
+          "text": "Focus",
+          "value": "focus",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "timeline": {
+          "type": "header",
+          "text": "Timeline",
+          "value": "timeline",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "feature-set": {
+          "type": "header",
+          "text": "Feature Set",
+          "value": "feature-set",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "tasks": {
+          "type": "header",
+          "text": "Tasks",
+          "value": "tasks",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "analytics": {
+          "type": "header",
+          "text": "Analytics",
+          "value": "analytics",
+          "line": 53,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "7v6qrwbbehg9qifk52eo107",
+      "data": {}
+    },
+    "dodgf8dws72bbit42h1r3x6": {
+      "id": "dodgf8dws72bbit42h1r3x6",
+      "title": "Golinks",
+      "desc": "",
+      "updated": 1665755828861,
+      "created": 1665666018172,
+      "custom": {},
+      "fname": "self.projects.golinks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "ee5ccb3d065af013092c47a8f5b35ebe",
+      "links": [],
+      "anchors": {
+        "implementation": {
+          "type": "header",
+          "text": "Implementation",
+          "value": "implementation",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "search": {
+          "type": "header",
+          "text": "Search",
+          "value": "search",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "7v6qrwbbehg9qifk52eo107",
+      "data": {}
+    },
+    "2sjxhzailrvhbny9koga1e4": {
+      "id": "2sjxhzailrvhbny9koga1e4",
+      "title": "Blog",
+      "desc": "",
+      "updated": 1668579312656,
+      "created": 1668576454868,
+      "custom": {},
+      "fname": "self.projects.blog",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "1cf2c16a678a06ca7ffe81133062dd4d",
+      "links": [],
+      "anchors": {
+        "plan": {
+          "type": "header",
+          "text": "Plan",
+          "value": "plan",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "7v6qrwbbehg9qifk52eo107",
+      "data": {}
+    },
+    "z2mx05a21tjcul6e2zpymg8": {
+      "id": "z2mx05a21tjcul6e2zpymg8",
+      "title": "Stack",
+      "desc": "Basically scratch notes",
+      "updated": 1666189463781,
+      "created": 1664591831519,
+      "custom": {},
+      "fname": "self.stack",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "51be21b83fcbc41b719ef51522b137ab",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "value": "task.2022.10.15.plan-korea-trip",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 18
+            },
+            "end": {
+              "line": 4,
+              "column": 38,
+              "offset": 53
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "task.2022.10.15.plan-korea-trip"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "value": "self.stack.task.2022.10.15.write-summary-for-software-engineering-at-google",
+          "alias": "write summary for software engineering at google",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 56
+            },
+            "end": {
+              "line": 5,
+              "column": 131,
+              "offset": 184
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "self.stack.task.2022.10.15.write-summary-for-software-engineering-at-google"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "value": "self.stack.task.2022.10.15.write-notes-manifesto",
+          "alias": "write notes manifesto",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 187
+            },
+            "end": {
+              "line": 6,
+              "column": 77,
+              "offset": 261
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "self.stack.task.2022.10.15.write-notes-manifesto"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "value": "self.stack.task.2022.10.15.check-out-lowlightermetrics",
+          "alias": "check out lowlighter/metrics",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 3,
+              "offset": 265
+            },
+            "end": {
+              "line": 8,
+              "column": 90,
+              "offset": 352
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "self.stack.task.2022.10.15.check-out-lowlightermetrics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "value": "self.stack.task.2022.10.15.make-useful-small-programs-crossword-puzzle",
+          "alias": "make useful small programs (crossword puzzle)",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 3,
+              "offset": 355
+            },
+            "end": {
+              "line": 9,
+              "column": 123,
+              "offset": 475
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "self.stack.task.2022.10.15.make-useful-small-programs-crossword-puzzle"
+          }
+        }
+      ],
+      "anchors": {
+        "current-wip": {
+          "type": "header",
+          "text": "Current WIP",
+          "value": "current-wip",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "ote8s9v89rcc1qluztnqql9",
+        "ezaq1livsnvw7qp4t71ln1e"
+      ],
+      "parent": "jeno2gw2ru0lk2hjk1t6kfu",
+      "data": {}
+    },
+    "ezaq1livsnvw7qp4t71ln1e": {
+      "fname": "self.stack.task",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116882,
+      "created": 1670335116882,
+      "id": "ezaq1livsnvw7qp4t71ln1e",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "5zn30lelr65fy9i6qwrbgmq"
+      ],
+      "parent": "z2mx05a21tjcul6e2zpymg8",
+      "data": {},
+      "title": "Task"
+    },
+    "5zn30lelr65fy9i6qwrbgmq": {
+      "fname": "self.stack.task.2022",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116882,
+      "created": 1670335116882,
+      "id": "5zn30lelr65fy9i6qwrbgmq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "06yvgv7u9aw26gq14jmsp3c"
+      ],
+      "parent": "ezaq1livsnvw7qp4t71ln1e",
+      "data": {},
+      "title": "2022"
+    },
+    "06yvgv7u9aw26gq14jmsp3c": {
+      "fname": "self.stack.task.2022.10",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116882,
+      "created": 1670335116882,
+      "id": "06yvgv7u9aw26gq14jmsp3c",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "kgc1lllouxn4vwyhxqcqai7"
+      ],
+      "parent": "5zn30lelr65fy9i6qwrbgmq",
+      "data": {},
+      "title": "10"
+    },
+    "kgc1lllouxn4vwyhxqcqai7": {
+      "fname": "self.stack.task.2022.10.15",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116882,
+      "created": 1670335116882,
+      "id": "kgc1lllouxn4vwyhxqcqai7",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "uioclf0ebpb3ojeo2u5bl2d",
+        "xe4hjpefuvxrrhfh8czwkw6",
+        "0fjpi9uu44co2eelue3hjcn",
+        "r5818q7c23mijfxsgqrtzp6"
+      ],
+      "parent": "06yvgv7u9aw26gq14jmsp3c",
+      "data": {},
+      "title": "15"
+    },
+    "r5818q7c23mijfxsgqrtzp6": {
+      "id": "r5818q7c23mijfxsgqrtzp6",
+      "title": "Write Summary for Software Engineering at Google",
+      "desc": "",
+      "updated": 1668217823126,
+      "created": 1665820929740,
+      "status": "w",
+      "due": "2022.10.25",
+      "priority": "",
+      "owner": "",
+      "TODO": "Write Summary for Software Engineering at Google",
+      "custom": {
+        "status": "w",
+        "due": "2022.10.25",
+        "priority": "",
+        "owner": "",
+        "TODO": "Write Summary for Software Engineering at Google"
+      },
+      "fname": "self.stack.task.2022.10.15.write-summary-for-software-engineering-at-google",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "5c085beb4d70a09040c8810be6a1452b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "self.stack.task.2022.10.15.write-summary-for-software-engineering-at-google",
+            "id": "r5818q7c23mijfxsgqrtzp6",
+            "vaultName": "mycelium"
+          },
+          "value": "books.software-engineering-at-google",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 41,
+              "offset": 41
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "books.software-engineering-at-google"
+          }
+        },
+        {
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 56
+            },
+            "end": {
+              "line": 5,
+              "column": 131,
+              "offset": 184
+            },
+            "indent": []
+          },
+          "value": "self.stack.task.2022.10.15.write-summary-for-software-engineering-at-google"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "kgc1lllouxn4vwyhxqcqai7",
+      "data": {}
+    },
+    "0fjpi9uu44co2eelue3hjcn": {
+      "id": "0fjpi9uu44co2eelue3hjcn",
+      "title": "Write Notes Manifesto",
+      "desc": "",
+      "updated": 1665821746885,
+      "created": 1665821737842,
+      "status": "w",
+      "due": "",
+      "priority": "",
+      "owner": "",
+      "TODO": "Write Notes Manifesto",
+      "custom": {
+        "status": "w",
+        "due": "",
+        "priority": "",
+        "owner": "",
+        "TODO": "Write Notes Manifesto"
+      },
+      "fname": "self.stack.task.2022.10.15.write-notes-manifesto",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "1e70b731be02e32fcef12af4e60972b0",
+      "links": [
+        {
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 187
+            },
+            "end": {
+              "line": 6,
+              "column": 77,
+              "offset": 261
+            },
+            "indent": []
+          },
+          "value": "self.stack.task.2022.10.15.write-notes-manifesto"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "kgc1lllouxn4vwyhxqcqai7",
+      "data": {}
+    },
+    "xe4hjpefuvxrrhfh8czwkw6": {
+      "id": "xe4hjpefuvxrrhfh8czwkw6",
+      "title": "Make Useful Small Programs Crossword Puzzle",
+      "desc": "",
+      "updated": 1665821493038,
+      "created": 1665820967294,
+      "status": "",
+      "due": "",
+      "priority": "",
+      "owner": "",
+      "TODO": "Make Useful Small Programs Crossword Puzzle",
+      "custom": {
+        "status": "",
+        "due": "",
+        "priority": "",
+        "owner": "",
+        "TODO": "Make Useful Small Programs Crossword Puzzle"
+      },
+      "fname": "self.stack.task.2022.10.15.make-useful-small-programs-crossword-puzzle",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "66d2880dcba5c5b5df50a9f256c00801",
+      "links": [
+        {
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 3,
+              "offset": 355
+            },
+            "end": {
+              "line": 9,
+              "column": 123,
+              "offset": 475
+            },
+            "indent": []
+          },
+          "value": "self.stack.task.2022.10.15.make-useful-small-programs-crossword-puzzle"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "kgc1lllouxn4vwyhxqcqai7",
+      "data": {}
+    },
+    "uioclf0ebpb3ojeo2u5bl2d": {
+      "id": "uioclf0ebpb3ojeo2u5bl2d",
+      "title": "Check Out lowlighter/metrics",
+      "desc": "",
+      "updated": 1665820896105,
+      "created": 1665820851470,
+      "status": "",
+      "due": "",
+      "priority": "",
+      "owner": "",
+      "TODO": "Check Out Lowlightermetrics",
+      "custom": {
+        "status": "",
+        "due": "",
+        "priority": "",
+        "owner": "",
+        "TODO": "Check Out Lowlightermetrics"
+      },
+      "fname": "self.stack.task.2022.10.15.check-out-lowlightermetrics",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "03c372eabf913dd26544d79eac433cc9",
+      "links": [
+        {
+          "from": {
+            "fname": "self.stack",
+            "id": "z2mx05a21tjcul6e2zpymg8",
+            "vaultName": "mycelium"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 3,
+              "offset": 265
+            },
+            "end": {
+              "line": 8,
+              "column": 90,
+              "offset": 352
+            },
+            "indent": []
+          },
+          "value": "self.stack.task.2022.10.15.check-out-lowlightermetrics"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "kgc1lllouxn4vwyhxqcqai7",
+      "data": {}
+    },
+    "ote8s9v89rcc1qluztnqql9": {
+      "id": "ote8s9v89rcc1qluztnqql9",
+      "title": "Personal",
+      "desc": "",
+      "updated": 1664600288851,
+      "created": 1664596840379,
+      "custom": {},
+      "fname": "self.stack.personal",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "98f6b14f93a79b5e958c172e216085be",
+      "links": [],
+      "anchors": {
+        "hosting": {
+          "type": "header",
+          "text": "Hosting",
+          "value": "hosting",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "z2mx05a21tjcul6e2zpymg8",
+      "data": {}
+    },
+    "70y9r1m7w3dczky3qheeu6x": {
+      "id": "70y9r1m7w3dczky3qheeu6x",
+      "title": "Dendron",
+      "desc": "",
+      "updated": 1665819490339,
+      "created": 1665819225537,
+      "custom": {},
+      "fname": "self.dendron",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "20aae80f0ded74a578585b9848783846",
+      "links": [],
+      "anchors": {
+        "navigation": {
+          "type": "header",
+          "text": "Navigation",
+          "value": "navigation",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "16i5ylahzk5snidmq0mp7ax"
+      ],
+      "parent": "jeno2gw2ru0lk2hjk1t6kfu",
+      "data": {}
+    },
+    "16i5ylahzk5snidmq0mp7ax": {
+      "id": "16i5ylahzk5snidmq0mp7ax",
+      "title": "Tasks",
+      "desc": "",
+      "updated": 1665819495001,
+      "created": 1665818388856,
+      "custom": {},
+      "fname": "self.dendron.tasks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "contentHash": "72e923fdd096928dfc2311d31362c70c",
+      "links": [],
+      "anchors": {
+        "changing-completion-status": {
+          "type": "header",
+          "text": "Changing completion status",
+          "value": "changing-completion-status",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "70y9r1m7w3dczky3qheeu6x",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "fname": "self",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116867,
+      "created": 1670335116867,
+      "id": "jeno2gw2ru0lk2hjk1t6kfu",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "70y9r1m7w3dczky3qheeu6x",
+        "z2mx05a21tjcul6e2zpymg8",
+        "7v6qrwbbehg9qifk52eo107"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Self",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    },
+    {
+      "fname": "programs",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116870,
+      "created": 1670335116870,
+      "id": "cc99duyya7duznab1snvopx",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "vuvzarcxbulrzrncswcuu86",
+        "mjr9wye0hfp3a4c0o7cmdbb"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Programs",
+      "custom": {
+        "nav_order": 1
+      }
+    },
+    {
+      "fname": "tooling",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "mycelium",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com:dingyuchen/mycelium.git"
+        }
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670335116869,
+      "created": 1670335116869,
+      "id": "2urytnhyjzxkxsjogj71k8v",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "smasnp7xn4wspgqjvfd5ihb"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Tooling",
+      "custom": {
+        "nav_order": 2
+      }
+    }
+  ],
+  "noteIndex": {
+    "fname": "self",
+    "stub": true,
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "mycelium",
+      "remote": {
+        "type": "git",
+        "url": "git@github.com:dingyuchen/mycelium.git"
+      }
+    },
+    "schemaStub": false,
+    "type": "note",
+    "updated": 1670335116867,
+    "created": 1670335116867,
+    "id": "jeno2gw2ru0lk2hjk1t6kfu",
+    "desc": "",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "70y9r1m7w3dczky3qheeu6x",
+      "z2mx05a21tjcul6e2zpymg8",
+      "7v6qrwbbehg9qifk52eo107"
+    ],
+    "parent": null,
+    "body": "",
+    "data": {},
+    "title": "Self",
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    }
+  },
+  "vaults": [
+    {
+      "fsPath": "dependencies/localhost/workplace",
+      "selfContained": true,
+      "name": "workplace"
+    },
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "mycelium",
+      "remote": {
+        "type": "git",
+        "url": "git@github.com:dingyuchen/mycelium.git"
+      }
+    }
+  ]
+}

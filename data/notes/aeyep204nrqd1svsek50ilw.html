@@ -1,0 +1,21 @@
+<h1 id="fish">Fish<a aria-hidden="true" class="anchor-heading icon-link" href="#fish"></a></h1>
+<h2 id="default-shell">Default shell<a aria-hidden="true" class="anchor-heading icon-link" href="#default-shell"></a></h2>
+<p>In <code>darwin-configuration.nix</code>, set</p>
+<pre><code>environment.shells = [ pkgs.fish ];
+</code></pre>
+<p>This should add <code>/run/current-system/sw/bin/fish</code> into <code>/etc/shells</code>.
+Supposedly this avoids some problems with setting your default shell later.</p>
+<p>Now also in <code>darwin-configuration.nix</code>, set </p>
+<pre><code>users.users.&#x3C;username>.shell = pkgs.fish;
+</code></pre>
+<p>If also using <code>home-manager</code>, set</p>
+<pre><code>programs.fish.enable = true;
+</code></pre>
+<p>in <code>home-manager.users.&#x3C;username></code></p>
+<h3 id="aliases">Aliases<a aria-hidden="true" class="anchor-heading icon-link" href="#aliases"></a></h3>
+<p>I use a shortcut <code>ds</code> to trigger <code>darwin-rebuild switch</code>, and <code>ls</code> as <code>exa --icons</code>.</p>
+<pre><code>shellAliases = {
+    ds = "darwin-rebuild switch";
+    ls = "exa --icons";
+}
+</code></pre>
