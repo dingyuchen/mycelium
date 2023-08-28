@@ -1,7 +1,4 @@
 ---
-id: 19jdn3rwahi9gg50brrm8jl
-title: Software Engineering at Google
-desc: ''
 updated: 1666190195992
 created: 1665757257224
 ---
